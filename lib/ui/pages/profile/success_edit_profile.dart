@@ -13,7 +13,7 @@ class ProfileSuccesPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Nice Update!',
+              'Success Upload!',
               style: blackTextStyle.copyWith(
                 fontSize: 20,
                 fontWeight: semiBold,
@@ -24,7 +24,7 @@ class ProfileSuccesPage extends StatelessWidget {
               height: 26,
             ),
             Text(
-              'Your data is safe with\nour system',
+              'Bukti Pembayaran anda berhasil di upload silangkan menunggu validasi dari admin',
               style: greyTextStyle.copyWith(
                 fontSize: 16,
               ),
@@ -35,7 +35,7 @@ class ProfileSuccesPage extends StatelessWidget {
             ),
             CustomFilledButton(
               width: 200,
-              title: 'My Profile',
+              title: 'Home',
               onPressed: () {
                 Navigator.pushNamedAndRemoveUntil(
                     context, '/home', (route) => false);

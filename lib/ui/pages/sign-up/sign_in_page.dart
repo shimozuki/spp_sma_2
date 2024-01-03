@@ -24,18 +24,18 @@ class _SignInPageState extends State<SignInPage> {
         children: [
           Container(
             width: 155,
-            height: 50,
-            margin: const EdgeInsets.only(top: 100, bottom: 100),
+            height: 150,
+            margin: const EdgeInsets.only(top: 100, bottom: 10),
             decoration: const BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(
-                  'assets/img_logo_light.png',
+                  'assets/IMG.png',
                 ),
               ),
             ),
           ),
           Text(
-            'Sign In&\nGrow Your Finance',
+            'Pembayaran Spp SMA 2 Sumbawa',
             style: blackTextStyle.copyWith(
               fontSize: 20,
               fontWeight: semiBold,
@@ -54,7 +54,7 @@ class _SignInPageState extends State<SignInPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 //Email Input
-                CustomTextField(title: 'Email address'),
+                CustomTextField(title: 'NISN'),
                 const SizedBox(
                   height: 12,
                 ),

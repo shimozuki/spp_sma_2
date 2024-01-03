@@ -94,7 +94,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                               title: 'Get Started',
                               onPressed: () {
                                 Navigator.pushNamedAndRemoveUntil(
-                                    context, '/sign-up', (route) => false);
+                                    context, '/sign-in', (route) => false);
                               },
                             ),
                             const SizedBox(

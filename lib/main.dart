@@ -10,6 +10,7 @@ import 'package:flutter_ewallet/ui/pages/onboarding_page.dart';
 import 'package:flutter_ewallet/ui/pages/profile/success_edit_profile.dart';
 import 'package:flutter_ewallet/ui/pages/profile/profile_page.dart';
 import 'package:flutter_ewallet/ui/pages/profile/pin_page.dart';
+import 'package:flutter_ewallet/ui/pages/profile/upload_bukti.dart';
 import 'package:flutter_ewallet/ui/pages/sign-up/sign_up_page.dart';
 import 'package:flutter_ewallet/ui/pages/sign-up/sign_up_succes.dart';
 import 'package:flutter_ewallet/ui/pages/sign-up/sign_in_page.dart';
@@ -75,6 +76,7 @@ class MyApp extends StatelessWidget {
           '/data-provider': (context) => const DataProviderPage(),
           '/data-selected': (context) => const DataSelectedPage(),
           '/data-success': (context) => const DataSuccessPage(),
+          '/upload-bukti':(context) => const UploadPage(),
         },
       ),
     );

@@ -6,12 +6,14 @@ class LatestTransactionItem extends StatelessWidget {
   final String title;
   final String time;
   final String value;
+   final VoidCallback onTap;
   const LatestTransactionItem(
       {super.key,
       required this.iconUrl,
       required this.title,
       required this.time,
-      required this.value});
+      required this.value, 
+      required this.onTap,});
 
   @override
   Widget build(BuildContext context) {

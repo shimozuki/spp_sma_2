@@ -65,7 +65,7 @@ class ProfilePage extends StatelessWidget {
                   height: 16,
                 ),
                 Text(
-                  'Shayna Hanna',
+                  'Bii shimo',
                   style: blackTextStyle.copyWith(
                     fontSize: 18,
                     fontWeight: medium,
@@ -78,11 +78,8 @@ class ProfilePage extends StatelessWidget {
                   iconUrl: 'assets/ic_edit_profile.png',
                   title: 'Edit Profile',
                   onTap: () async {
-                    final routerPin = Navigator.pushNamed(context, '/pin');
-                    if (await routerPin == true) {
                       // ignore: use_build_context_synchronously
                       Navigator.pushNamed(context, '/profile-edit');
-                    }
                   },
                 ),
                 ProfileMenuItem(
